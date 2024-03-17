@@ -6,8 +6,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ClickCounterTest {
 
+    ClickCounter test = new ClickCounter();
+
     @Test
     void getValue() {
+        assertEquals(0, test.getValue());
     }
 
     @Test
