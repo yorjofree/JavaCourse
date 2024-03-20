@@ -1,4 +1,4 @@
-package com.freiorio;
+package com.freiorio.exercises.oop.basic;
 
 public class ClickCounter {
     int value;
