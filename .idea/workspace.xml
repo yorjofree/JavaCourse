@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Created class ClickCounter and methods">
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Added assertEquals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freiorio/ClickCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/ClickCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/freiorio/ClickCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/ClickCounterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/JavaCourse",
+    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/learn-java-core",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -103,11 +105,20 @@
       <option name="project" value="LOCAL" />
       <updated>1710524879842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added assertEquals">
+      <option name="closed" value="true" />
+      <created>1710672480043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710672480043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created class ClickCounter and methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class ClickCounter and methods" />
+    <MESSAGE value="Added assertEquals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added assertEquals" />
   </component>
 </project>

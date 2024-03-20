@@ -4,7 +4,7 @@ public class ClickCounter {
     int value;
 
     public ClickCounter() {
-        this.value = 0;
+        value = 0;
     }
 
     public int getValue() {
@@ -12,16 +12,16 @@ public class ClickCounter {
     }
 
     public void click() {
-        (this.value)++;
+        value++;
     }
 
     public void undo() {
-        if (this.value > 0) {
-            (this.value)--;
+        if (value > 0) {
+            value--;
         }
     }
 
     public void reset() {
-        this.value = 0;
+        value = 0;
     }
 }

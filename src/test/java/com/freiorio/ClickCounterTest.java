@@ -1,6 +1,9 @@
 package com.freiorio;
 
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,18 +13,35 @@ class ClickCounterTest {
 
     @Test
     void getValue() {
-        assertEquals(0, test.getValue());
+        test.reset();
+        test.click();
+        test.click();
+        test.click();
+        assertEquals(3, test.getValue());
     }
 
     @Test
     void click() {
+        int value = test.getValue();
+        test.click();
+        assertEquals(value + 1, test.getValue());
     }
 
     @Test
     void undo() {
+        int value = test.getValue();
+        test.undo();
+        if (value == 0) {
+            assertEquals(0, test.getValue());
+        }
+        else {
+            assertEquals(value - 1, test.getValue());
+        }
     }
 
     @Test
     void reset() {
+        test.reset();
+        assertEquals(0, test.getValue());
     }
 }
