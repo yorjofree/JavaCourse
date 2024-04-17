@@ -12,14 +12,16 @@ public class GuessNumber {
         boolean check = false;
         while (!check) {
             int value = randomGen.nextInt(0,4);
-            System.out.println("Sto pensando a " + value);
             int answer = scanner.nextInt();
             if (value == 0 && answer == 0) {
-                System.out.println("Trovato! Stavo pensando proprio a 0!");
+                System.out.println("Troppo bravo! Alla prossima!");
                 check = true;
             }
+            else if (value == answer) {
+                System.out.println("Bravo! Stavo proprio pensando a " + value);
+            }
             else {
-                System.out.println("Ritenta: stavo pensando a " + value);
+                System.out.println("Sbagliato! Stavo pensando a " + value);
             }
         }
     }
