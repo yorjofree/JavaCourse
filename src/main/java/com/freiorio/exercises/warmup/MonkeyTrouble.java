@@ -7,10 +7,22 @@ public class MonkeyTrouble {
         Scanner sc = new Scanner(System.in);
         for (;;) {
             System.out.println("Le due scimmie stanno ridendo?");
-            System.out.printf("a) ");
+            System.out.print("a) ");
+            while (!sc.hasNextBoolean()) {
+                System.out.println("Non capisco... Mi devi dire true o false");
+                System.out.print("a) ");
+                sc.skip(".*\\n");
+            }
             boolean aSmile = sc.nextBoolean();
-            System.out.printf("b) ");
-            boolean bSmile = sc.nextBoolean();;
+            sc.skip(".*\\n");
+            System.out.print("b) ");
+            while (!sc.hasNextBoolean()) {
+                System.out.println("Non capisco... Mi devi dire true o false");
+                System.out.print("b) ");
+                sc.skip(".*\\n");
+            }
+            boolean bSmile = sc.nextBoolean();
+            sc.skip(".*\\n");
             if (aSmile && bSmile) {
                 System.out.print("""
                         Pericolo! Entrambe stanno ridendo!
