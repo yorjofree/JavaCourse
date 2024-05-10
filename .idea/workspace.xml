@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Update - solved problem in regexp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/warmup/TheRightPrice.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Added warmup/TheRightPrice.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/exceptions/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/exceptions/DivisionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,6 +37,9 @@
     &quot;accountId&quot;: &quot;e7e51b40-ca5e-4116-9d7e-4e3f30c7127f&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/freiorio/exercises/warmup/GuessNumber.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -47,11 +51,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Division.executor": "Run",
     "Application.GuessNumber.executor": "Run",
     "Application.MonkeyTrouble.executor": "Run",
     "Application.TheRightPrice.executor": "Run",
     "Application.XMasTree.executor": "Run",
     "JUnit.ClickCounterTest.executor": "Run",
+    "JUnit.DivisionTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -62,7 +68,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "promo.database"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,13 +76,28 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.freiorio.exercises.exceptions" />
       <recent name="com.freiorio.exercises.oop.basic" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.freiorio.exercises.exceptions" />
       <recent name="com.freiorio" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DivisionTest">
+    <configuration name="Division" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.exceptions.Division" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuessNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.warmup.GuessNumber" />
       <module name="JavaCourse" />
@@ -116,16 +137,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClickCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.ClickCounterTest" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.exceptions" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.exceptions.DivisionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,10 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MonkeyTrouble" />
+        <item itemvalue="JUnit.DivisionTest" />
+        <item itemvalue="Application.Division" />
         <item itemvalue="Application.GuessNumber" />
+        <item itemvalue="Application.MonkeyTrouble" />
         <item itemvalue="Application.XMasTree" />
-        <item itemvalue="JUnit.ClickCounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713519177049</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added warmup/TheRightPrice.java">
+      <option name="closed" value="true" />
+      <created>1713522607959</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713522607959</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +301,7 @@
     <MESSAGE value="Update: 3 cases for wrong/right/exit answer" />
     <MESSAGE value="Added warmup/MonkeyTrouble.java" />
     <MESSAGE value="Update - solved problem in regexp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update - solved problem in regexp" />
+    <MESSAGE value="Added warmup/TheRightPrice.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added warmup/TheRightPrice.java" />
   </component>
 </project>
