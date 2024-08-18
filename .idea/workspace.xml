@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Division.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/strings/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/strings/ReverseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Reverse.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/strings/RemoveFirstTwoChars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,6 +63,8 @@
     "JUnit.DivisionTest.executor": "Run",
     "JUnit.FillArrayTest.executor": "Run",
     "JUnit.FillArrayTest.fillArray.executor": "Run",
+    "JUnit.ReverseTest.executor": "Run",
+    "JUnit.ReverseTest.reverseCharAt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -93,7 +93,7 @@
       <recent name="com.freiorio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseTest">
+  <component name="RunManager" selected="JUnit.RemoveFirstTwoCharsTest">
     <configuration name="ConcatenateTest.concatenate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -110,32 +110,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivideArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveFirstTwoCharsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.arrays.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.arrays" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.arrays.DivideArrayTest" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.strings" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.strings.RemoveFirstTwoCharsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillArrayTest.fillArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveFirstTwoCharsTest.removeFirstTwoCharsCharAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.arrays.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.arrays" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.arrays.FillArrayTest" />
-      <option name="METHOD_NAME" value="fillArray" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.strings" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.strings.RemoveFirstTwoCharsTest" />
+      <option name="METHOD_NAME" value="removeFirstTwoCharsCharAt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveFirstTwoCharsTest" />
+        <item itemvalue="JUnit.RemoveFirstTwoCharsTest.removeFirstTwoCharsCharAt" />
         <item itemvalue="JUnit.ReverseTest" />
         <item itemvalue="JUnit.ReverseTest.reverseCharAt" />
         <item itemvalue="JUnit.ConcatenateTest.concatenate" />
-        <item itemvalue="JUnit.DivideArrayTest" />
-        <item itemvalue="JUnit.FillArrayTest.fillArray" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723994006685</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Reverse.java">
+      <option name="closed" value="true" />
+      <created>1723997279225</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723997279225</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -339,6 +347,7 @@
     <MESSAGE value="Update - solved problem in regexp" />
     <MESSAGE value="Added warmup/TheRightPrice.java" />
     <MESSAGE value="Division.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Division.java" />
+    <MESSAGE value="Reverse.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse.java" />
   </component>
 </project>
