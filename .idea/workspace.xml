@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Reverse.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/basic/RationalNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/basic/RationalNumberTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="RationalNumber.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/basic/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/basic/CircleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/arrays/CopyArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/arrays/CopyArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,9 @@
     "Application.MonkeyTrouble.executor": "Run",
     "Application.TheRightPrice.executor": "Run",
     "Application.XMasTree.executor": "Run",
+    "JUnit.CircleTest.executor": "Run",
+    "JUnit.CircleTest.setCenter.executor": "Run",
+    "JUnit.CircleTest.translate.executor": "Run",
     "JUnit.ClickCounterTest.executor": "Run",
     "JUnit.ConcatenateTest.concatenate.executor": "Run",
     "JUnit.CopyArrayTest.copyArray.executor": "Run",
@@ -101,7 +103,54 @@
       <recent name="com.freiorio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RationalNumberTest">
+  <component name="RunManager" selected="JUnit.CircleTest.translate">
+    <configuration name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.CircleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleTest.setCenter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.CircleTest" />
+      <option name="METHOD_NAME" value="setCenter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleTest.translate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.CircleTest" />
+      <option name="METHOD_NAME" value="translate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RationalNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -133,59 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveFirstTwoCharsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.strings" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.strings.RemoveFirstTwoCharsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveFirstTwoCharsTest.removeFirstTwoCharsCharAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.strings" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.strings.RemoveFirstTwoCharsTest" />
-      <option name="METHOD_NAME" value="removeFirstTwoCharsCharAt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.strings" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.strings.ReverseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CircleTest.translate" />
+        <item itemvalue="JUnit.CircleTest.setCenter" />
+        <item itemvalue="JUnit.CircleTest" />
         <item itemvalue="JUnit.RationalNumberTest" />
         <item itemvalue="JUnit.RationalNumberTest.testEquals" />
-        <item itemvalue="JUnit.RemoveFirstTwoCharsTest" />
-        <item itemvalue="JUnit.RemoveFirstTwoCharsTest.removeFirstTwoCharsCharAt" />
-        <item itemvalue="JUnit.ReverseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723998521026</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="RationalNumber.java">
+      <option name="closed" value="true" />
+      <created>1724067051491</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1724067051491</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,6 +374,7 @@
     <MESSAGE value="Added warmup/TheRightPrice.java" />
     <MESSAGE value="Division.java" />
     <MESSAGE value="Reverse.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverse.java" />
+    <MESSAGE value="RationalNumber.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="RationalNumber.java" />
   </component>
 </project>
