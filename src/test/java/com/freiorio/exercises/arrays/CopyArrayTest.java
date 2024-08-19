@@ -7,7 +7,7 @@ import java.util.random.RandomGenerator;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CopyArrayTest {
-    private final RandomGenerator randomGenerator = RandomGenerator.getDefault();
+    private final RandomGenerator randomGenerator  = RandomGenerator.getDefault();
     private final int length = randomGenerator.nextInt(1, 20);
     private final double[] src = new double[length];
 
