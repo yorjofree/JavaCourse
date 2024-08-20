@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Circle.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/basic/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/basic/PolygonTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Polygon.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/basic/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -353,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724087683735</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Polygon.java">
+      <option name="closed" value="true" />
+      <created>1724176806776</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1724176806776</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,6 +391,7 @@
     <MESSAGE value="Reverse.java" />
     <MESSAGE value="RationalNumber.java" />
     <MESSAGE value="Circle.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circle.java" />
+    <MESSAGE value="Polygon.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polygon.java" />
   </component>
 </project>
