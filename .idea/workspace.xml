@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="RationalNumber.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/basic/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/basic/CircleTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Circle.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/basic/Polygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/basic/PolygonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     "JUnit.DivisionTest.executor": "Run",
     "JUnit.FillArrayTest.executor": "Run",
     "JUnit.FillArrayTest.fillArray.executor": "Run",
+    "JUnit.PolygonTest.executor": "Run",
     "JUnit.RationalNumberTest.executor": "Run",
     "JUnit.RationalNumberTest.testEquals.executor": "Run",
     "JUnit.RemoveFirstTwoCharsTest.executor": "Run",
@@ -80,7 +81,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/JavaCourse",
+    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/learn-java-core",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -103,7 +104,7 @@
       <recent name="com.freiorio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CircleTest.translate">
+  <component name="RunManager" selected="JUnit.PolygonTest">
     <configuration name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -151,6 +152,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PolygonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.PolygonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RationalNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -166,29 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RationalNumberTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.RationalNumberTest" />
-      <option name="METHOD_NAME" value="testEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PolygonTest" />
         <item itemvalue="JUnit.CircleTest.translate" />
         <item itemvalue="JUnit.CircleTest.setCenter" />
         <item itemvalue="JUnit.CircleTest" />
         <item itemvalue="JUnit.RationalNumberTest" />
-        <item itemvalue="JUnit.RationalNumberTest.testEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724067051491</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Circle.java">
+      <option name="closed" value="true" />
+      <created>1724087683735</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724087683735</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,6 +383,7 @@
     <MESSAGE value="Division.java" />
     <MESSAGE value="Reverse.java" />
     <MESSAGE value="RationalNumber.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="RationalNumber.java" />
+    <MESSAGE value="Circle.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circle.java" />
   </component>
 </project>
