@@ -3,7 +3,9 @@ package com.freiorio.exercises.oop.basic;
 public class BankAccount {
     private double balance;
 
-    public BankAccount() {}
+    public BankAccount() {
+        balance = 0.0;
+    }
 
     public BankAccount(double balance) {
         this.balance = balance;
