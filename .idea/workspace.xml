@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="BankAccount.java without test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/basic/BankAccountTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="BankAccountTest.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/reverse/Reverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/reverse/ReverserFast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/reverse/ReverserSlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/reverse/ReverserFastTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/reverse/ReverserSlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/reverse/ReverserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/basic/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/basic/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -77,6 +82,9 @@
     "JUnit.RemoveFirstTwoCharsTest.removeFirstTwoCharsCharAt.executor": "Run",
     "JUnit.ReverseTest.executor": "Run",
     "JUnit.ReverseTest.reverseCharAt.executor": "Run",
+    "JUnit.ReverserFastTest.executor": "Run",
+    "JUnit.ReverserSlowTest.executor": "Run",
+    "JUnit.ReverserTest.reverse.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -99,14 +107,14 @@
       <recent name="com.freiorio.exercises.oop.basic" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.freiorio.exercises.oop.reverse" />
       <recent name="com.freiorio.exercises.oop.basic" />
       <recent name="com.freiorio.exercises.strings" />
       <recent name="com.freiorio.exercises.arrays" />
       <recent name="com.freiorio.exercises.exceptions" />
-      <recent name="com.freiorio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankAccountTest.getBalance">
+  <component name="RunManager" selected="JUnit.ReverserSlowTest">
     <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -138,60 +146,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleTest.setCenter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverserFastTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.oop.reverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.CircleTest" />
-      <option name="METHOD_NAME" value="setCenter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircleTest.translate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.CircleTest" />
-      <option name="METHOD_NAME" value="translate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolygonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.PolygonTest" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.reverse" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.reverse.ReverserFastTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverserSlowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.reverse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.reverse" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.reverse.ReverserSlowTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverserTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.reverse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.reverse" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.reverse.ReverserTest" />
+      <option name="METHOD_NAME" value="reverse" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReverserSlowTest" />
+        <item itemvalue="JUnit.ReverserFastTest" />
+        <item itemvalue="JUnit.ReverserTest.reverse" />
         <item itemvalue="JUnit.BankAccountTest.getBalance" />
         <item itemvalue="JUnit.BankAccountTest" />
-        <item itemvalue="JUnit.PolygonTest" />
-        <item itemvalue="JUnit.CircleTest.translate" />
-        <item itemvalue="JUnit.CircleTest.setCenter" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724177464817</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="BankAccountTest.java">
+      <option name="closed" value="true" />
+      <created>1724237012660</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724237012660</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,6 +420,7 @@
     <MESSAGE value="Circle.java" />
     <MESSAGE value="Polygon.java" />
     <MESSAGE value="BankAccount.java without test" />
-    <option name="LAST_COMMIT_MESSAGE" value="BankAccount.java without test" />
+    <MESSAGE value="BankAccountTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="BankAccountTest.java" />
   </component>
 </project>
