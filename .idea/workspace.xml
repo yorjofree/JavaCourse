@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="BankAccountTest.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/reverse/Reverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/reverse/ReverserFast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/reverse/ReverserSlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/reverse/ReverserFastTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/reverse/ReverserSlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/reverse/ReverserTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Reverse package">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/phonebook/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/phonebook/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/phonebook/PhoneBookArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/phonebook/PhoneBookArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +73,9 @@
     "JUnit.DivisionTest.executor": "Run",
     "JUnit.FillArrayTest.executor": "Run",
     "JUnit.FillArrayTest.fillArray.executor": "Run",
+    "JUnit.PhoneBookArrayTest.addPerson.executor": "Run",
+    "JUnit.PhoneBookArrayTest.searchByLastname.executor": "Run",
+    "JUnit.PhoneBookArrayTest.searchByNameAndLastname.executor": "Run",
     "JUnit.PolygonTest.executor": "Run",
     "JUnit.RationalNumberTest.executor": "Run",
     "JUnit.RationalNumberTest.testEquals.executor": "Run",
@@ -107,86 +108,88 @@
       <recent name="com.freiorio.exercises.oop.basic" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.freiorio.exercises.oop.phonebook" />
       <recent name="com.freiorio.exercises.oop.reverse" />
       <recent name="com.freiorio.exercises.oop.basic" />
       <recent name="com.freiorio.exercises.strings" />
       <recent name="com.freiorio.exercises.arrays" />
-      <recent name="com.freiorio.exercises.exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverserSlowTest">
-    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PhoneBookArrayTest">
+    <configuration name="PhoneBookArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.BankAccountTest" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.getBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookArrayTest.addPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.basic.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.basic.BankAccountTest" />
-      <option name="METHOD_NAME" value="getBalance" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
+      <option name="METHOD_NAME" value="addPerson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverserFastTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookArrayTest.removePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.reverse.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.reverse" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.reverse.ReverserFastTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
+      <option name="METHOD_NAME" value="removePerson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverserSlowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookArrayTest.searchByLastname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.reverse.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.reverse" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.reverse.ReverserSlowTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
+      <option name="METHOD_NAME" value="searchByLastname" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverserTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookArrayTest.searchByNameAndLastname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.reverse.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.reverse" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.reverse.ReverserTest" />
-      <option name="METHOD_NAME" value="reverse" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
+      <option name="METHOD_NAME" value="searchByNameAndLastname" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverserSlowTest" />
-        <item itemvalue="JUnit.ReverserFastTest" />
-        <item itemvalue="JUnit.ReverserTest.reverse" />
-        <item itemvalue="JUnit.BankAccountTest.getBalance" />
-        <item itemvalue="JUnit.BankAccountTest" />
+        <item itemvalue="JUnit.PhoneBookArrayTest" />
+        <item itemvalue="JUnit.PhoneBookArrayTest.removePerson" />
+        <item itemvalue="JUnit.PhoneBookArrayTest.searchByNameAndLastname" />
+        <item itemvalue="JUnit.PhoneBookArrayTest.searchByLastname" />
+        <item itemvalue="JUnit.PhoneBookArrayTest.addPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724237012660</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Reverse package">
+      <option name="closed" value="true" />
+      <created>1724325073882</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325073882</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,6 +432,7 @@
     <MESSAGE value="Polygon.java" />
     <MESSAGE value="BankAccount.java without test" />
     <MESSAGE value="BankAccountTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="BankAccountTest.java" />
+    <MESSAGE value="Reverse package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse package" />
   </component>
 </project>
