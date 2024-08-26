@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="Reverse package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/phonebook/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/phonebook/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/phonebook/PhoneBookArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/phonebook/PhoneBookArrayTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="PhoneBook package">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/phonebook/PhoneBookList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/phonebook/PhoneBookListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +72,11 @@
     "JUnit.FillArrayTest.executor": "Run",
     "JUnit.FillArrayTest.fillArray.executor": "Run",
     "JUnit.PhoneBookArrayTest.addPerson.executor": "Run",
+    "JUnit.PhoneBookArrayTest.executor": "Run",
+    "JUnit.PhoneBookArrayTest.removePerson.executor": "Run",
     "JUnit.PhoneBookArrayTest.searchByLastname.executor": "Run",
     "JUnit.PhoneBookArrayTest.searchByNameAndLastname.executor": "Run",
+    "JUnit.PhoneBookListTest.executor": "Run",
     "JUnit.PolygonTest.executor": "Run",
     "JUnit.RationalNumberTest.executor": "Run",
     "JUnit.RationalNumberTest.testEquals.executor": "Run",
@@ -115,7 +116,7 @@
       <recent name="com.freiorio.exercises.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneBookArrayTest">
+  <component name="RunManager" selected="JUnit.PhoneBookListTest">
     <configuration name="PhoneBookArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -127,22 +128,6 @@
       <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
       <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneBookArrayTest.addPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
-      <option name="METHOD_NAME" value="addPerson" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,13 +180,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneBookListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoneBookListTest" />
         <item itemvalue="JUnit.PhoneBookArrayTest" />
         <item itemvalue="JUnit.PhoneBookArrayTest.removePerson" />
         <item itemvalue="JUnit.PhoneBookArrayTest.searchByNameAndLastname" />
         <item itemvalue="JUnit.PhoneBookArrayTest.searchByLastname" />
-        <item itemvalue="JUnit.PhoneBookArrayTest.addPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724325073882</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="PhoneBook package">
+      <option name="closed" value="true" />
+      <created>1724403742617</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1724403742617</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,6 +441,7 @@
     <MESSAGE value="BankAccount.java without test" />
     <MESSAGE value="BankAccountTest.java" />
     <MESSAGE value="Reverse package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverse package" />
+    <MESSAGE value="PhoneBook package" />
+    <option name="LAST_COMMIT_MESSAGE" value="PhoneBook package" />
   </component>
 </project>
