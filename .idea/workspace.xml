@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="PhoneBook package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/phonebook/PhoneBookList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/phonebook/PhoneBookListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/bankaccount/AbstractBankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/bankaccount/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/bankaccount/BankAccountEasy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/bankaccount/BankAccountPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/bankaccount/BankAccountEasyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/bankaccount/BankAccountProTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +63,8 @@
     "Application.MonkeyTrouble.executor": "Run",
     "Application.TheRightPrice.executor": "Run",
     "Application.XMasTree.executor": "Run",
+    "JUnit.BankAccountEasyTest.executor": "Run",
+    "JUnit.BankAccountProTest.executor": "Run",
     "JUnit.BankAccountTest.executor": "Run",
     "JUnit.BankAccountTest.getBalance.executor": "Run",
     "JUnit.CircleTest.executor": "Run",
@@ -91,9 +97,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/JavaCourse",
+    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/learn-java-core",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -109,14 +116,44 @@
       <recent name="com.freiorio.exercises.oop.basic" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.freiorio.exercises.oop.bankaccount" />
       <recent name="com.freiorio.exercises.oop.phonebook" />
       <recent name="com.freiorio.exercises.oop.reverse" />
       <recent name="com.freiorio.exercises.oop.basic" />
       <recent name="com.freiorio.exercises.strings" />
-      <recent name="com.freiorio.exercises.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneBookListTest">
+  <component name="RunManager" selected="JUnit.BankAccountProTest">
+    <configuration name="BankAccountEasyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.bankaccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.bankaccount" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.bankaccount.BankAccountEasyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountProTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.oop.bankaccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.bankaccount" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.bankaccount.BankAccountProTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhoneBookArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -148,38 +185,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookArrayTest.searchByLastname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
-      <option name="METHOD_NAME" value="searchByLastname" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneBookArrayTest.searchByNameAndLastname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
-      <option name="METHOD_NAME" value="searchByNameAndLastname" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PhoneBookListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -197,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BankAccountProTest" />
+        <item itemvalue="JUnit.BankAccountEasyTest" />
         <item itemvalue="JUnit.PhoneBookListTest" />
         <item itemvalue="JUnit.PhoneBookArrayTest" />
         <item itemvalue="JUnit.PhoneBookArrayTest.removePerson" />
-        <item itemvalue="JUnit.PhoneBookArrayTest.searchByNameAndLastname" />
-        <item itemvalue="JUnit.PhoneBookArrayTest.searchByLastname" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724403742617</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="PhoneBook package">
+      <option name="closed" value="true" />
+      <created>1724709086357</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1724709086357</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
