@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="PhoneBook package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/bankaccount/AbstractBankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/bankaccount/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/bankaccount/BankAccountEasy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/oop/bankaccount/BankAccountPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/bankaccount/BankAccountEasyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/oop/bankaccount/BankAccountProTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="BankAccount package">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/collections/CollatzSequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/collections/CollatzSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/collections/CollatzSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +67,7 @@
     "JUnit.CircleTest.setCenter.executor": "Run",
     "JUnit.CircleTest.translate.executor": "Run",
     "JUnit.ClickCounterTest.executor": "Run",
+    "JUnit.CollatzSequenceTest.executor": "Run",
     "JUnit.ConcatenateTest.concatenate.executor": "Run",
     "JUnit.CopyArrayTest.copyArray.executor": "Run",
     "JUnit.DivideArrayTest.executor": "Run",
@@ -97,7 +94,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/iorio/IdeaProjects/learn-java-core",
@@ -116,14 +112,14 @@
       <recent name="com.freiorio.exercises.oop.basic" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.freiorio.exercises.collections" />
       <recent name="com.freiorio.exercises.oop.bankaccount" />
       <recent name="com.freiorio.exercises.oop.phonebook" />
       <recent name="com.freiorio.exercises.oop.reverse" />
       <recent name="com.freiorio.exercises.oop.basic" />
-      <recent name="com.freiorio.exercises.strings" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankAccountProTest">
+  <component name="RunManager" selected="JUnit.CollatzSequenceTest">
     <configuration name="BankAccountEasyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -154,6 +150,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CollatzSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.collections.CollatzSequenceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhoneBookArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -165,22 +176,6 @@
       <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
       <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneBookArrayTest.removePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
-      <option name="METHOD_NAME" value="removePerson" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollatzSequenceTest" />
         <item itemvalue="JUnit.BankAccountProTest" />
         <item itemvalue="JUnit.BankAccountEasyTest" />
         <item itemvalue="JUnit.PhoneBookListTest" />
         <item itemvalue="JUnit.PhoneBookArrayTest" />
-        <item itemvalue="JUnit.PhoneBookArrayTest.removePerson" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724709086357</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="BankAccount package">
+      <option name="closed" value="true" />
+      <created>1725543438269</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1725543438269</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -455,6 +458,7 @@
     <MESSAGE value="BankAccountTest.java" />
     <MESSAGE value="Reverse package" />
     <MESSAGE value="PhoneBook package" />
-    <option name="LAST_COMMIT_MESSAGE" value="PhoneBook package" />
+    <MESSAGE value="BankAccount package" />
+    <option name="LAST_COMMIT_MESSAGE" value="BankAccount package" />
   </component>
 </project>
