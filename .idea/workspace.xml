@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="BankAccount package">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/collections/CollatzSequenceTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="CollatzSequence">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/collections/LookAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/collections/LookAndSayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/collections/CollatzSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/collections/CollatzSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +74,7 @@
     "JUnit.DivisionTest.executor": "Run",
     "JUnit.FillArrayTest.executor": "Run",
     "JUnit.FillArrayTest.fillArray.executor": "Run",
+    "JUnit.LookAndSayTest.executor": "Run",
     "JUnit.PhoneBookArrayTest.addPerson.executor": "Run",
     "JUnit.PhoneBookArrayTest.executor": "Run",
     "JUnit.PhoneBookArrayTest.removePerson.executor": "Run",
@@ -96,7 +97,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/learn-java-core",
+    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/JavaCourse",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -119,7 +120,7 @@
       <recent name="com.freiorio.exercises.oop.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CollatzSequenceTest">
+  <component name="RunManager" selected="JUnit.LookAndSayTest">
     <configuration name="BankAccountEasyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -165,16 +166,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LookAndSayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookArrayTest" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.collections.LookAndSayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LookAndSayTest" />
         <item itemvalue="JUnit.CollatzSequenceTest" />
         <item itemvalue="JUnit.BankAccountProTest" />
         <item itemvalue="JUnit.BankAccountEasyTest" />
         <item itemvalue="JUnit.PhoneBookListTest" />
-        <item itemvalue="JUnit.PhoneBookArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725543438269</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="CollatzSequence">
+      <option name="closed" value="true" />
+      <created>1725555564938</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1725555564938</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -459,6 +468,7 @@
     <MESSAGE value="Reverse package" />
     <MESSAGE value="PhoneBook package" />
     <MESSAGE value="BankAccount package" />
-    <option name="LAST_COMMIT_MESSAGE" value="BankAccount package" />
+    <MESSAGE value="CollatzSequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="CollatzSequence" />
   </component>
 </project>
