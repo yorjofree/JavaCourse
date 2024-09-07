@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="CollatzSequence">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/collections/LookAndSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/collections/LookAndSayTest.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="ProjectManagement.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/collections/ProjectManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/collections/ProjectManagementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +82,7 @@
     "JUnit.PhoneBookArrayTest.searchByNameAndLastname.executor": "Run",
     "JUnit.PhoneBookListTest.executor": "Run",
     "JUnit.PolygonTest.executor": "Run",
+    "JUnit.ProjectManagementTest.executor": "Run",
     "JUnit.RationalNumberTest.executor": "Run",
     "JUnit.RationalNumberTest.testEquals.executor": "Run",
     "JUnit.RemoveFirstTwoCharsTest.executor": "Run",
@@ -97,7 +98,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/JavaCourse",
+    "last_opened_file_path": "C:/Users/iorio/IdeaProjects/learn-java-core",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -120,7 +121,7 @@
       <recent name="com.freiorio.exercises.oop.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LookAndSayTest">
+  <component name="RunManager" selected="JUnit.ProjectManagementTest">
     <configuration name="BankAccountEasyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -181,16 +182,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.phonebook.*" />
+          <option name="PATTERN" value="com.freiorio.exercises.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.phonebook" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.phonebook.PhoneBookListTest" />
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.collections.ProjectManagementTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjectManagementTest" />
         <item itemvalue="JUnit.LookAndSayTest" />
         <item itemvalue="JUnit.CollatzSequenceTest" />
         <item itemvalue="JUnit.BankAccountProTest" />
         <item itemvalue="JUnit.BankAccountEasyTest" />
-        <item itemvalue="JUnit.PhoneBookListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725555564938</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="LookAndSay">
+      <option name="closed" value="true" />
+      <created>1725635074938</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1725635074938</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,6 +478,8 @@
     <MESSAGE value="PhoneBook package" />
     <MESSAGE value="BankAccount package" />
     <MESSAGE value="CollatzSequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="CollatzSequence" />
+    <MESSAGE value="LookAndSay" />
+    <MESSAGE value="ProjectManagement.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProjectManagement.java" />
   </component>
 </project>
