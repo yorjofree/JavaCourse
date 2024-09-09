@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="JustPrint">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/threads/StartStop.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="StartStop.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/threads/DayChangeCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/threads/StartStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/threads/StartStop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CopyArray.executor": "Run",
+    "Application.DayChangeCheck.executor": "Run",
     "Application.Division.executor": "Run",
     "Application.FillArray.executor": "Run",
     "Application.GuessNumber.executor": "Run",
@@ -124,7 +126,20 @@
       <recent name="com.freiorio.exercises.oop.bankaccount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartStop">
+  <component name="RunManager" selected="Application.DayChangeCheck">
+    <configuration name="DayChangeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.threads.DayChangeCheck" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartStop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.threads.StartStop" />
       <module name="JavaCourse" />
@@ -184,28 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.collections" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.collections.ProjectManagementTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DayChangeCheck" />
         <item itemvalue="Application.StartStop" />
         <item itemvalue="JUnit.CheckIntervalBetweenDatesTest.checkIntervalBetweenDates" />
         <item itemvalue="JUnit.JustPrintTest" />
         <item itemvalue="JUnit.IterableToStringTest" />
-        <item itemvalue="JUnit.ProjectManagementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725870319997</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="StartStop.java">
+      <option name="closed" value="true" />
+      <created>1725886712065</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1725886712065</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added assertEquals" />
     <MESSAGE value="Implemented tests" />
     <MESSAGE value="Moved .class files" />
     <MESSAGE value="Updating" />
@@ -514,6 +521,7 @@
     <MESSAGE value="LookAndSay" />
     <MESSAGE value="ProjectManagement.java" />
     <MESSAGE value="JustPrint" />
-    <option name="LAST_COMMIT_MESSAGE" value="JustPrint" />
+    <MESSAGE value="StartStop.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="StartStop.java" />
   </component>
 </project>
