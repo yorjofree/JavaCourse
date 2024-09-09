@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="ProjectManagement.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/generics/IterableToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/generics/IterableToStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/functional/JustPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freiorio/exercises/functional/JustPrintTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +75,7 @@
     "JUnit.FillArrayTest.executor": "Run",
     "JUnit.FillArrayTest.fillArray.executor": "Run",
     "JUnit.IterableToStringTest.executor": "Run",
+    "JUnit.JustPrintTest.executor": "Run",
     "JUnit.LookAndSayTest.executor": "Run",
     "JUnit.PhoneBookArrayTest.addPerson.executor": "Run",
     "JUnit.PhoneBookArrayTest.executor": "Run",
@@ -115,29 +116,14 @@
       <recent name="com.freiorio.exercises.oop.basic" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.freiorio.exercises.functional" />
       <recent name="com.freiorio.exercises.generics" />
       <recent name="com.freiorio.exercises.collections" />
       <recent name="com.freiorio.exercises.oop.bankaccount" />
       <recent name="com.freiorio.exercises.oop.phonebook" />
-      <recent name="com.freiorio.exercises.oop.reverse" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IterableToStringTest">
-    <configuration name="BankAccountProTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.oop.bankaccount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.oop.bankaccount" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.oop.bankaccount.BankAccountProTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JustPrintTest">
     <configuration name="CollatzSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -163,6 +149,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.freiorio.exercises.generics" />
       <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.generics.IterableToStringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JustPrintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freiorio.exercises.functional" />
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.functional.JustPrintTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JustPrintTest" />
         <item itemvalue="JUnit.IterableToStringTest" />
         <item itemvalue="JUnit.ProjectManagementTest" />
         <item itemvalue="JUnit.LookAndSayTest" />
         <item itemvalue="JUnit.CollatzSequenceTest" />
-        <item itemvalue="JUnit.BankAccountProTest" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725701753340</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="ProjectManagement.java">
+      <option name="closed" value="true" />
+      <created>1725706114501</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1725706114501</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
