@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="StartStop.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/threads/DayChangeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/threads/StartStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/threads/StartStop.java" afterDir="false" />
+    <list default="true" id="b9186884-fa66-4b89-bc9d-2334c0590222" name="Changes" comment="DayChangeCheck.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freiorio/exercises/threads/ThreadPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,7 @@
     "Application.MonkeyTrouble.executor": "Run",
     "Application.StartStop.executor": "Run",
     "Application.TheRightPrice.executor": "Run",
+    "Application.ThreadPool.executor": "Run",
     "Application.XMasTree.executor": "Run",
     "JUnit.BankAccountEasyTest.executor": "Run",
     "JUnit.BankAccountProTest.executor": "Run",
@@ -126,7 +125,7 @@
       <recent name="com.freiorio.exercises.oop.bankaccount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DayChangeCheck">
+  <component name="RunManager" selected="Application.ThreadPool">
     <configuration name="DayChangeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.threads.DayChangeCheck" />
       <module name="JavaCourse" />
@@ -142,6 +141,19 @@
     </configuration>
     <configuration name="StartStop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.threads.StartStop" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freiorio.exercises.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.threads.ThreadPool" />
       <module name="JavaCourse" />
       <extension name="coverage">
         <pattern>
@@ -169,21 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterableToStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.freiorio.exercises.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.freiorio.exercises.generics" />
-      <option name="MAIN_CLASS_NAME" value="com.freiorio.exercises.generics.IterableToStringTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JustPrintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaCourse" />
       <extension name="coverage">
@@ -201,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPool" />
         <item itemvalue="Application.DayChangeCheck" />
         <item itemvalue="Application.StartStop" />
         <item itemvalue="JUnit.CheckIntervalBetweenDatesTest.checkIntervalBetweenDates" />
         <item itemvalue="JUnit.JustPrintTest" />
-        <item itemvalue="JUnit.IterableToStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725886712065</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="DayChangeCheck.java">
+      <option name="closed" value="true" />
+      <created>1725889195134</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1725889195134</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented tests" />
     <MESSAGE value="Moved .class files" />
     <MESSAGE value="Updating" />
     <MESSAGE value="Added warmup/XMasTree.java" />
@@ -522,6 +526,7 @@
     <MESSAGE value="ProjectManagement.java" />
     <MESSAGE value="JustPrint" />
     <MESSAGE value="StartStop.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="StartStop.java" />
+    <MESSAGE value="DayChangeCheck.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="DayChangeCheck.java" />
   </component>
 </project>
